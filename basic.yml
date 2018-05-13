@@ -2,7 +2,6 @@
 - name: basic
   host: all
   task:
-    - name: install sysstats
-      package:
-        name: sysstats
-        state: present
+    - name: hello message
+      debug:
+        msg: "Hello World from Ansible!"
