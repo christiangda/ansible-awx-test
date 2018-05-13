@@ -1,6 +1,5 @@
 ---
-- name: debug message
-  host: all
+- hosts: all
 
   tasks:
     - name: hello message
