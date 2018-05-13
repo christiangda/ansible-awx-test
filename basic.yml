@@ -1,0 +1,8 @@
+---
+- name: basic
+  host: all
+  task:
+    - name: install sysstats
+      package:
+        name: sysstats
+        state: present
