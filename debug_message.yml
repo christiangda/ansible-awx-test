@@ -1,7 +1,8 @@
 ---
-- name: basic
+- name: debug message
   host: all
-  task:
+
+  tasks:
     - name: hello message
       debug:
         msg: "Hello World from Ansible!"
